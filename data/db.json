@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": "34a4",
+      "name": "Teclado",
+      "description": "Teclado mecânico com switch brown",
+      "price": "150"
+    },
+    {
+      "id": "b1e2",
+      "name": "Computador Gamer",
+      "description": "Computador gamer com 16GB de Ram, 1TB de armazenamento SSD, RXT 4090 TI, processador I9",
+      "price": "4500"
+    },
+    {
+      "id": "8b78",
+      "name": "Monitor ",
+      "description": "Monitor Gamer",
+      "price": "475.29"
+    }
+  ]
+}
