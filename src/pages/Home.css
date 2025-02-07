@@ -1,3 +1,69 @@
-.icon{
+.Container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 50px;
+}
+h1{
+    display: inline;
+    margin: 0;
+    padding: 0px 10px;
+    font-family: 'Poppins',sans-serif;
+    justify-items: end;
+    color: #fff;
+    font-size: 55px;
+}
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.ProductContainer{
+    width: 250px;
+    height: 250px;
+    margin: 40px;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Link{
+    text-decoration: none;
+    color: #000;
+}
+.Link:hover{
+    cursor: pointer;
+    color: #fff;
+}
+.NameProduct, .PriceProduct{
+    overflow-wrap: break-word;
+    color: #fff;
+}
+.NameProduct{
+    font-size: 25px;
+}
+.PriceProduct{
+    font-size: 30px;
+}
+.actions{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.icons{
+    padding: 2px 0px;
     width: 20px;
+}
+#deleteIcon{
+    width: 22px;
+}
+.icons:hover{
+    cursor: pointer;
+    filter: invert();
+}
+.actions button{
+    background: none;
+    border: none;
 }

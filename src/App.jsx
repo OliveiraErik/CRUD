@@ -5,6 +5,9 @@ import NavBar from './components/NavBar'
 import CreateProductsPage from './pages/CreatePage'
 import Home from './pages/Home'
 import EditePage from './pages/EditePage'
+//Css
+import './App.css'
+import Description from './pages/Description'
 
 function App() {
   return (
@@ -14,6 +17,7 @@ function App() {
     <Routes>
       <Route path='/' element={<Home />}/>
       <Route path='/create' element={<CreateProductsPage/>}/>
+      <Route path='/products/:id/description' element={<Description/>}/>
       <Route path='/products/:id' element={<EditePage />}/>
     </Routes>
     </BrowserRouter>

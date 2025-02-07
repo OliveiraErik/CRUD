@@ -14,20 +14,29 @@ const Home = () => {
 
   return (
     <>
+    <div className="Container">
     <h1>Produtos</h1>
+    <div className="cardContainer">
     {products && products.map((product)=>(
       <div key={product.id} className="ProductContainer">
         <p className="NameProduct">{product.name}</p>
-        <p className="PriceProduct">{product.price}</p>
+        <p className="PriceProduct">R${product.price}</p>
+          <Link to={`/products/${product.id}/description`} className="Link">
+          Descrição
+          </Link>
+          <div className="actions">
           <Link to={`/products/${product.id}`}>
-            <img className="icon" src="/edit.png"/>
+            <img className="icons" src="/edit.png"/>
             </Link>
         <button onClick={()=> handleDelete(product.id)}>
-          <img className="icon" src="/excluir.png"/>
+          <img id="deleteIcon" className="icons" src="/excluir.png"/>
           </button>
+          </div>
       </div>
     )
     )}
+    </div>
+    </div>
     </>
   )
 }

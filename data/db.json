@@ -7,16 +7,22 @@
       "price": "150"
     },
     {
-      "id": "b1e2",
       "name": "Computador Gamer",
       "description": "Computador gamer com 16GB de Ram, 1TB de armazenamento SSD, RXT 4090 TI, processador I9",
-      "price": "4500"
+      "price": "4.500",
+      "id": "b1e2"
     },
     {
       "id": "8b78",
       "name": "Monitor ",
       "description": "Monitor Gamer",
       "price": "475.29"
+    },
+    {
+      "id": "89fe",
+      "name": "Memoria Ram",
+      "description": "Memoria ram 16Gb 2666MHZ",
+      "price": "234.55"
     }
   ]
 }
