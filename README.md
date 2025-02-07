@@ -47,5 +47,3 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Documentação do React](https://reactjs.org/)
 - [JSON-server no GitHub](https://github.com/typicode/json-server)
-- [Tutorial de CRUD com React](https://link-do-tutorial.com)
-
