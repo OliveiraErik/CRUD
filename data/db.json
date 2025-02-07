@@ -1,13 +1,13 @@
 {
   "products": [
     {
-      "id": "34a4",
-      "name": "Teclado",
-      "description": "Teclado mecânico com switch brown",
-      "price": "150"
+      "name": "Teclado Mecânico ",
+      "description": "Teclado mecânico 75% com switch brown e RgB ",
+      "price": "150",
+      "id": "34a4"
     },
     {
-      "name": "Computador Gamer",
+      "name": "Computador Gamer com Rtx",
       "description": "Computador gamer com 16GB de Ram, 1TB de armazenamento SSD, RXT 4090 TI, processador I9",
       "price": "4.500",
       "id": "b1e2"
@@ -17,12 +17,6 @@
       "name": "Monitor ",
       "description": "Monitor Gamer",
       "price": "475.29"
-    },
-    {
-      "id": "89fe",
-      "name": "Memoria Ram",
-      "description": "Memoria ram 16Gb 2666MHZ",
-      "price": "234.55"
     }
   ]
 }

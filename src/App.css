@@ -6,4 +6,41 @@
   padding: 0;
   width: 100%;
   height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+form{
+  width: 400px;
+}
+label{
+  display: flex;
+  flex-direction: column;
+  color: #ccc;
+  margin: 0px 10px;
+}
+input, textarea{
+  font-family: "Poppins", sans-serif;
+  margin: 8px 10px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+textarea{
+  resize: none;
+  height: 120px;
+}
+button{
+  background: none;
+  height: 40px;
+  border-radius: 7px;
+  box-shadow: none;
+  border: 1px solid #fff;
+  color: #fff;
+  margin: 20px 10px;
+}
+button:hover{
+  color: #808080;
+  border: 1px #808080 solid;
+  cursor: pointer;
 }

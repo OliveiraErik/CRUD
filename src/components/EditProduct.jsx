@@ -1,9 +1,10 @@
 import { useState , useEffect } from "react"
-import { useParams } from "react-router-dom"
+import { useNavigate, useParams } from "react-router-dom"
 import useFetch from "../hooks/useFetch"
 
 const EditProduct = () => {
     const { id } = useParams()
+    const navigate = useNavigate()
     const url = `http://localhost:3000/products/${id}`
     const {products, loading, error } = useFetch(url)
 
@@ -36,6 +37,7 @@ const EditProduct = () => {
         } catch (error) {
             console.log(error)
         }
+        navigate("/")
     }
 
     const handleUpdate = async(e) =>{
@@ -46,6 +48,7 @@ const EditProduct = () => {
     setNameUpdate("")
     setDescriptionUpdate("")
     setPriceUpdate(0)
+
     }
 
     if (loading) return <div>Carregando...</div>;

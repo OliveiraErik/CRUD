@@ -28,7 +28,10 @@ const Home = () => {
           <Link to={`/products/${product.id}`}>
             <img className="icons" src="/edit.png"/>
             </Link>
-        <button onClick={()=> handleDelete(product.id)}>
+        <button 
+        onClick={()=> handleDelete(product.id)}
+        className="button-icon"
+        >
           <img id="deleteIcon" className="icons" src="/excluir.png"/>
           </button>
           </div>

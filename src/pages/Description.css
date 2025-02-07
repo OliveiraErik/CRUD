@@ -1,0 +1,19 @@
+.DescriptionContainer{
+    font-family: "Poppins", sans-serif;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+.name , .price, .description{
+    color: #fff;
+    display: flex;
+    padding-left: 20px;
+    margin: 5px 0px;
+}
+.name , .price{
+    font-size: 40px;
+    font-weight: bold;
+}

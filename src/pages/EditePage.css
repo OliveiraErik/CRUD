@@ -1,0 +1,33 @@
+.ContainerEditPage{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.InfosEditProduct{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding: 20px;
+    height: 100%;
+    margin-top: 10px;
+}
+.EditTitle{
+    font-size: 30px;
+}
+.InfoNameEditProduct {
+    font-size: 35px;
+    margin: 0;
+}
+.InfoPriceEditProduct{
+    font-size: 35px;
+    color: #fff;
+    margin: 0;
+    padding: 0px 10px;
+}
+.InfoDescriptionEditProduct{
+    color: #fff;
+    font-size: 18px;
+    padding: 0px 10px;
+}

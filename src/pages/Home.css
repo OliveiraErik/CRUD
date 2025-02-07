@@ -19,12 +19,11 @@ h1{
     flex-wrap: wrap;
 }
 .ProductContainer{
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     margin: 40px;
     border: 3px solid #fff;
     border-radius: 20px;
-    padding: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -32,6 +31,7 @@ h1{
 .Link{
     text-decoration: none;
     color: #000;
+    padding: 0px 8px;
 }
 .Link:hover{
     cursor: pointer;
@@ -40,9 +40,12 @@ h1{
 .NameProduct, .PriceProduct{
     overflow-wrap: break-word;
     color: #fff;
+    margin: 0;
+    padding: 0px 8px;
 }
 .NameProduct{
     font-size: 25px;
+    padding-top: 5px;
 }
 .PriceProduct{
     font-size: 30px;
@@ -51,9 +54,10 @@ h1{
     display: flex;
     justify-content: end;
     align-items: center;
+    text-align: center;
+    padding: 0px 12px;
 }
 .icons{
-    padding: 2px 0px;
     width: 20px;
 }
 #deleteIcon{
@@ -63,7 +67,16 @@ h1{
     cursor: pointer;
     filter: invert();
 }
-.actions button{
+.button-icon{
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    height: 27px;
+    display: flex;
+    align-items: start;
+}
+.button-icon:hover{
     background: none;
     border: none;
 }

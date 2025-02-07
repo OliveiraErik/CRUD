@@ -2,7 +2,7 @@ import NewProduct from "../components/NewProduct"
 
 const CreateProductsPage = () => {
   return (
-    <div>
+    <div className="Container">
         <h1>Criar Produtos</h1>
         <NewProduct />
     </div>
